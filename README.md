@@ -12,7 +12,7 @@ First of all, before cloning the ARGEN github package, go to the right directory
 cd {ARGEN directory}
 ```
 
-then go on to the next step. {ARGEN directory} could be for example /storage10/kwangmoon/ARGEN.
+then go on to the next step. {ARGEN directory} could be for example /kwangmoon/ARGEN.
 
 
 #### 1. Repository clone
