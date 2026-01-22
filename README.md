@@ -28,12 +28,16 @@ For R, we need the requirements as below :
 
 -   R: [R installation](https://www.r-project.org)  (>=4.2.2)
 
-#### 2. Install/load required R packages
+#### 2. Install and load required R packages
 
-In R, run those codes that download the required packages for running ARGEN.
+In R, run the following commands to install the packages required for running **ARGEN** (skip any packages that are already installed):
 
-```
-install.packages('MASS')
+```r
+install.packages(c(
+  "dplyr", "data.table", "Matrix", "glmnet", "tidyr",
+  "qs", "sandwich", "lmtest", "splines",
+  "onlineFDR", "MASS", "igraph", "ggplot2", "future"
+))
 ```
 
 Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials) of this github. There are mainly two tutorials provided: 
