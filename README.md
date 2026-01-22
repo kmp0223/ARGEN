@@ -36,6 +36,11 @@ In R, run those codes that download the required packages for running ARGEN.
 install.packages('MASS')
 ```
 
-Details about implementing codes and reproducing Figures in the manuscript can be found in the Tutorial of this github. There are mainly three tutorials provided: 
+Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials) of this github. There are mainly two tutorials provided: 
 
+https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb
+- Tutorial 1: [K562 cell line application](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb)
+- Tutorial 2: [Simulation](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb)
+  
+The required datasets can be found in the [Google Drive link](link).
 
