@@ -42,5 +42,5 @@ Details about implementing codes and reproducing Figures in the manuscript can b
 - Tutorial 1: [K562 cell line application](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb)
 - Tutorial 2: [Simulation](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb)
   
-The required datasets can be found in the [Google Drive link](link).
+The processed data from Replogle et al. (2022, Cell) are available via Google Drive at: [Google Drive link](https://drive.google.com/drive/u/0/folders/1luFVh6laubmLKERc0wWDYh3k8_gCCVv0).
 
