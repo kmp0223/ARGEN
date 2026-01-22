@@ -44,3 +44,7 @@ Details about implementing codes and reproducing Figures in the manuscript can b
   
 The processed data from Replogle et al. (2022, Cell) are available via Google Drive at: [Google Drive link](https://drive.google.com/drive/u/0/folders/1luFVh6laubmLKERc0wWDYh3k8_gCCVv0).
 
+## Citation
+
+Replogle, J. M., Saunders, R. A., Pogson, A. N., Hussmann, J. A., Lenail, A., Guna, A., Mascibroda, L., Wagner, E. J., Adelman, K., Lithwick-Yanai, G., Iremadze, N., Oberstrass, F., Lipson, D., Bonnar, J. L., Jost, M., Norman, T. M., & Weissman, J. S. (2022). *Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq*. **Cell, 185**(14), 2559–2575.e28. https://doi.org/10.1016/j.cell.2022.05.013
+
