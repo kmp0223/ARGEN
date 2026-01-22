@@ -33,6 +33,9 @@ For R, we need the requirements as below :
 In R, run the following commands to install the packages required for running **ARGEN** (skip any packages that are already installed):
 
 ```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
 install.packages(c(
   "dplyr", "data.table", "Matrix", "glmnet", "tidyr",
   "qs", "sandwich", "lmtest", "splines",
