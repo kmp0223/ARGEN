@@ -33,31 +33,19 @@ For R, we need the requirements as below :
 In R, run the following commands to install the packages required for running **ARGEN** (skip any packages that are already installed):
 
 ```r
-## ---- Bioconductor manager ----
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
-## ---- CRAN packages ----
-cran_pkgs <- c(
+install.packages(c(
   "dplyr", "data.table", "Matrix", "glmnet", "tidyr",
-  "qs", "sandwich", "lmtest", "onlineFDR", "MASS",
+  "qs", "sandwich", "lmtest", "MASS",
   "igraph", "ggplot2", "future",
   "purrr", "rlang", "scales", "visNetwork",
   "ggpubr", "tibble", "ggraph", "patchwork"
-)
+))
 
-cran_pkgs <- setdiff(cran_pkgs, rownames(installed.packages()))
-if (length(cran_pkgs) > 0) {
-  install.packages(cran_pkgs)
-}
+BiocManager::install(c("GenomicFeatures", "onlineFDR"))
 
-## ---- Bioconductor packages ----
-bioc_pkgs <- c("GenomicFeatures")
-
-bioc_pkgs <- setdiff(bioc_pkgs, rownames(installed.packages()))
-if (length(bioc_pkgs) > 0) {
-  BiocManager::install(bioc_pkgs, ask = FALSE, update = FALSE)
-}
 
 ```
 
