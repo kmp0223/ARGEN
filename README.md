@@ -33,14 +33,32 @@ For R, we need the requirements as below :
 In R, run the following commands to install the packages required for running **ARGEN** (skip any packages that are already installed):
 
 ```r
+## ---- Bioconductor manager ----
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
-install.packages(c(
+## ---- CRAN packages ----
+cran_pkgs <- c(
   "dplyr", "data.table", "Matrix", "glmnet", "tidyr",
-  "qs", "sandwich", "lmtest", "splines",
-  "onlineFDR", "MASS", "igraph", "ggplot2", "future"
-))
+  "qs", "sandwich", "lmtest", "onlineFDR", "MASS",
+  "igraph", "ggplot2", "future",
+  "purrr", "rlang", "scales", "visNetwork",
+  "ggpubr", "tibble", "ggraph", "patchwork"
+)
+
+cran_pkgs <- setdiff(cran_pkgs, rownames(installed.packages()))
+if (length(cran_pkgs) > 0) {
+  install.packages(cran_pkgs)
+}
+
+## ---- Bioconductor packages ----
+bioc_pkgs <- c("GenomicFeatures")
+
+bioc_pkgs <- setdiff(bioc_pkgs, rownames(installed.packages()))
+if (length(bioc_pkgs) > 0) {
+  BiocManager::install(bioc_pkgs, ask = FALSE, update = FALSE)
+}
+
 ```
 
 Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials) of this github. There are mainly three tutorials provided: 
