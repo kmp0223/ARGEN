@@ -43,14 +43,15 @@ install.packages(c(
 ))
 ```
 
-Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials) of this github. There are mainly two tutorials provided: 
+Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials) of this github. There are mainly three tutorials provided: 
 
 
 - Tutorial 1: [K562 cell line application](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial.ipynb)
-- Tutorial 2: [Simulation](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial2.ipynb)
-- Tutorial 3: [K562 cell line application across chromosomes](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial3.ipynb)
+- Tutorial 2: [K562 cell line application across chromosomes](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial2.ipynb)
+- Tutorial 3: [Simulation](https://github.com/kmp0223/ARGEN/tree/main/code/tutorials/Tutorial3.ipynb)
+
   
-The processed data from Replogle et al. (2022, Cell) are available via Google Drive at: [Google Drive link](https://drive.google.com/drive/u/0/folders/1luFVh6laubmLKERc0wWDYh3k8_gCCVv0).
+The processed data from Replogle et al. (2022, Cell), along with auxiliary data, are available via Google Drive at: [Google Drive link](https://drive.google.com/drive/u/0/folders/1luFVh6laubmLKERc0wWDYh3k8_gCCVv0).
 
 ## Reference
 
