@@ -41,8 +41,8 @@ pacman::p_load(
 )
 
 ```
-Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](/tutorials) of this github. There are nine tutorials provided, each reproducing a specific set of figures. Several notebooks read cached results written by earlier ones, so it's best to run them in order, Tutorial 1 through Tutorial 9:
-- Tutorial 1: [Simulation study](/tutorials/Tutorial1-Fig_2.ipynb) — comparing ARGEN, Naive, and INSPRE (Brown et al., 2025, Nature Communications) on a synthetic DAG (Fig. 2)
+Details about implementing codes and reproducing Figures in the manuscript can be found in the [Tutorial](https://github.com/kmp0223/ARGEN/blob/main/tutorials) of this github. There are nine tutorials provided, each reproducing a specific set of figures. Several notebooks read cached results written by earlier ones, so it's best to run them in order, Tutorial 1 through Tutorial 9:
+- Tutorial 1: [Simulation study](https://github.com/kmp0223/ARGEN/blob/main/tutorials/Tutorial1-Fig_2.ipynb) — comparing ARGEN, Naive, and INSPRE (Brown et al., 2025, Nature Communications) on a synthetic DAG (Fig. 2)
 - Tutorial 2: [Single-chromosome application](/tutorials/Tutorial2-Fig_3a_b_c.ipynb) — the MCM3 sub-DAG and intervention effects (Fig. 3a–c)
 - Tutorial 3: [Across-chromosome application](/tutorials/Tutorial3-Fig_3d_e_f_g.ipynb) — ARGEN and INSPRE (Brown et al., 2025, Nature Communications) across all chromosomes (Fig. 3d–g)
 - Tutorial 4: [Confounding diagnostics](/tutorials/Tutorial4-Fig_4a_b.ipynb) — checking the perturbation indicator against GEM group / mitochondrial percentage (Fig. 4a–b)
