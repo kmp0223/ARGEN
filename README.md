@@ -53,7 +53,7 @@ Details about implementing codes and reproducing Figures in the manuscript can b
 - Tutorial 9: [Inter-chromosomal network](/tutorials/Tutorial9-Fig.6%2C7.ipynb) — the pooled, genome-wide ARGEN fit, module/GO characterization, and hub visualization (Fig. 6–7)
   
 The processed data from Replogle et al. (2022, Cell), along with auxiliary data, are available via Zenodo at: [Zenodo link](https://doi.org/10.5281/zenodo.22052266). Once you download `data.zip` from Zenodo, put the extracted directory right under your `{ARGEN directory}`. The raw data is available at [the link provided by Replogle et al.](https://gwps.wi.mit.edu/). 
-**Correction:** The meta_data object contains a column named guide_UMI_sum, but it is incorrectly labeled. It does not denote the guide UMI count; rather, it denotes the total UMI count per cell.
+**Note:** The meta_data object contains a column named guide_UMI_sum. It does not denote the guide UMI count; rather, it denotes the total UMI count per cell.
 
 ## References
 Replogle, J. M., Saunders, R. A., Pogson, A. N., Hussmann, J. A., Lenail, A., Guna, A., Mascibroda, L., Wagner, E. J., Adelman, K., Lithwick-Yanai, G., Iremadze, N., Oberstrass, F., Lipson, D., Bonnar, J. L., Jost, M., Norman, T. M., & Weissman, J. S. (2022). *Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq*. **Cell, 185**(14), 2559–2575.e28. https://doi.org/10.1016/j.cell.2022.05.013
